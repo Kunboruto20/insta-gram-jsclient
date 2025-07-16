@@ -1,5 +1,10 @@
 // Modul pentru mesaje directe (DM)
 
+const sendTextDM = require('./send');
+const getInbox = require('./receive');
+
 module.exports = {
-  // TODO: Implementare funcții DM
+  sendTextDM,
+  getInbox,
+  // TODO: Alte funcții DM (media, reacții)
 };

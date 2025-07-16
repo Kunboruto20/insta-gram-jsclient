@@ -1,5 +1,8 @@
 // Modul pentru feed, profiluri, comentarii
 
+const getProfile = require('./profile');
+
 module.exports = {
-  // TODO: Implementare funcții feed
+  getProfile,
+  // TODO: Feed, comentarii, like, follow
 };
