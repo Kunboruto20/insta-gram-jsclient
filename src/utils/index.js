@@ -1,5 +1,8 @@
 // Modul utilitare pentru cookie-uri, token-uri, headers
 
+const fetchWithCookies = require('./request');
+
 module.exports = {
-  // TODO: Implementare funcții utilitare
+  fetchWithCookies,
+  // TODO: Alte funcții utilitare
 };

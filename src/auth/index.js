@@ -1,8 +1,7 @@
 // Modul de autentificare Instagram
 
+const login = require('./login');
+
 module.exports = {
-  login: async (username, password) => {
-    // TODO: Implementare login Instagram web
-    throw new Error('login() nu este încă implementat');
-  },
+  login,
 };
